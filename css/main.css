@@ -1,9 +1,9 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
-.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transform: all 1s;
 }
-.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
   color: #ff652f;
 }
 
@@ -33,6 +33,16 @@ footer.vertical .copyright {
   bottom: 1rem;
   right: 3rem;
   writing-mode: vertical-lr;
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .nav {

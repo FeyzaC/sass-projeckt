@@ -1,0 +1,3 @@
+@mixin transition($sec) {
+  transform: all $sec;
+}

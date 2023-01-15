@@ -1,7 +1,12 @@
+//*****************************************************
+//*   FOOTER
+//*****************************************************
+
 .link-style {
   a {
     padding: 0.4rem;
     @include transition(1s);
+
     &:hover {
       color: $secondary-color;
     }
@@ -9,6 +14,7 @@
 }
 
 footer.horizontal {
+  // border: 2px solid red;
   height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -18,11 +24,11 @@ footer.horizontal {
 }
 
 footer.vertical {
+  // border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 2rem;
-
   .social-icons {
     display: flex;
     flex-direction: column;
@@ -40,6 +46,7 @@ footer.vertical {
 }
 
 footer.middle {
+  // border: 2px solid red;
   height: 20vh;
   display: flex;
   flex-direction: column;

@@ -1,10 +1,14 @@
+//*****************************************************
+//*   PROJECT PAGE
+//*****************************************************
+
 .project-bgImg-container {
+  // border: 2px solid red;
   @include bgImg(40vh, $main-bgImg-path);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  .project__bio-image {
+  .projects__bio-image {
     text-align: center;
     margin-bottom: 0.5rem;
   }
@@ -27,6 +31,7 @@
     img {
       width: 100%;
     }
+
     &::after {
       content: "";
       width: 100%;
